@@ -1,10 +1,7 @@
 name: Ubuntu 24.04 arm64
 
 on:
-  push:
-    branches: [ master, development, libov_win ]
-  pull_request:
-    branches: [ master ]
+  workflow_dispatch: 
 
 jobs:
   build:
