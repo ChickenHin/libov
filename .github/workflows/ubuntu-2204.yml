@@ -1,10 +1,7 @@
 name: Ubuntu 22.04
 
 on:
-  push:
-    branches: [ master, development, libov_win ]
-  pull_request:
-    branches: [ master ]
+  workflow_dispatch: 
 
 jobs:
   build:
